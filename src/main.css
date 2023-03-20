@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav h1 {
+    margin: 0;
+  }
+  
+  nav form {
+    display: flex;
+  }
+  
+  nav label {
+    display: inline-block;
+    margin-right: 0.5rem;
+    line-height: 2;
+  }
+  
+  nav input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+  }
+  
+  nav button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100vh;
+    background-color: #f2f2f2;
+    padding: 1rem;
+  }
+  
+  #task-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #task-list li {
+    margin-bottom: 0.5rem;
+  }

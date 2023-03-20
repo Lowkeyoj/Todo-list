@@ -1,0 +1,26 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "web app that allows you to create todo lists and delete modify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lowkeyoj/Todo-list.git"
+  },
+  "author": "Lowkeyoj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lowkeyoj/Todo-list/issues"
+  },
+  "homepage": "https://github.com/Lowkeyoj/Todo-list#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "date-fns": "^2.29.3",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  }
+}
